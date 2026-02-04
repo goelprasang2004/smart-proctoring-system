@@ -1,0 +1,29 @@
+# Web Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+python-multipart
+websockets
+
+# Database
+sqlalchemy>=2.0.0
+psycopg2-binary
+alembic
+
+# Security & Auth
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt==3.2.2
+python-dotenv
+
+# AI & Proctoring
+opencv-python-headless
+numpy
+
+# Blockchain
+cryptography
+pycryptodomex
+
+# Utilities
+pydantic>=2.0.0
+pydantic-settings
+requests
